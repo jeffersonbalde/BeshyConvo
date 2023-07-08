@@ -6,10 +6,10 @@ const Message = ({message}) => {
     const { currentUser } = UserAuth();
 
   return (
-    <div className="bg-[#FFFFFF]">
+    <div className="bg-[#FFFFFF] px-2">
         <div className={`chat ${message.uid === currentUser.uid ? "chat-end" : "chat-start"}`}>
             <div className="chat-image avatar">
-                <div className="w-9 rounded-full">
+                <div className="w-10 rounded-full">
                 <img src={message.avatar} />
                 </div>
             </div>
