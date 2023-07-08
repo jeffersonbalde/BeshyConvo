@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
 .containerWrap {
   @apply container mx-auto max-w-4xl
+}
+
+@layer base {
+  html {
+    font-family: 'Inter', sans-serif;
+  }
 }
