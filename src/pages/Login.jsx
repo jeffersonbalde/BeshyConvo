@@ -29,9 +29,9 @@ const Login = () => {
     <div className="bg-[#E8E8E8] w-screen h-screen font-inter">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="flex flex-col items-center justify-center">
-          <h1 className="text-[#000000] text-6xl font-bold upper sm:text-8xl">WebChat</h1>
-          <p className="text-[#000000] text-lg mt-3 w-[350px] text-center sm:text-2xl sm:w-[500px]">Join the conversation, meet new people, 
-              and make connections in one shared room
+          <h1 className="text-[#000000] text-6xl font-bold upper sm:text-8xl">BeshyConvo</h1>
+          <p className="text-[#000000] text-lg mt-3 w-[350px] text-center sm:text-2xl sm:w-[500px]">Join the BeshyConvo, 
+            meet new Beshify users, and build connections within a shared chat room
           </p>
           <div 
             className="mt-7 border border-[#000000] py-4 px-24 rounded-full flex flex-row items-center cursor-pointer"

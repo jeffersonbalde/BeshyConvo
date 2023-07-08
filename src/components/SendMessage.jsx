@@ -82,7 +82,7 @@ const SendMessage = () => {
       const { uid, displayName, photoURL } = currentUser;
       const messageWithEmoji = value
         .split(" ")
-        .map((word) => `${word}🤸`) // Append the emoji to each word
+        .map((word) => `${word}🤸`)
         .join(" ");
 
       await addDoc(collection(db, "messages"), {
