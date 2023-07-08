@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { UserAuth } from "../context/AuthContext";
 import { useEffect } from "react";
+  
 
 const Login = () => {
   const navigate = useNavigate();
@@ -27,6 +28,7 @@ const Login = () => {
         <h1 className="text-5xl font-bold">Let&apos;s Connect</h1>
         <p className="py-6">Join the conversation, meet new poeple, and make connections in one shared room</p>
         <button onClick={handleLogin} className="btn">Login With Google</button>
+
       </div>
     </div>
   </div>
