@@ -4,9 +4,9 @@ import SendMessage from "../components/SendMessage"
 
 export const Chatroom = () => {
   return (
-    <div className="bg-[#FFFFFF] w-full h-full">
+    <div className="bg-[#ffffff] w-full h-full">
         <Navbar />
-        <ChatBox />
+        <ChatBox /> 
         <SendMessage />
     </div>
   )

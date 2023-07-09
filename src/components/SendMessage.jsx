@@ -100,7 +100,7 @@ const SendMessage = () => {
   };
 
   return (
-    <div className="bg-[#FFFFFF] fixed bottom-0 w-full py-5 shadow-lg border-t-2 ">
+    <div className="bg-[#ffffff] fixed bottom-0 w-full py-5 shadow-lg border-t-2 ">
       <form className="containerWrap flex px-4" onSubmit={handleSendMessage}>
         <div className="flex flex-row items-center justify-center w-full gap-3">
           <input
