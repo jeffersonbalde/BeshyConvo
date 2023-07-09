@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <div className="sticky top-0 z-10 bg-white backdrop-filter backdrop-blur-lg bg-opacity-30 border-b border-gray-200">
       <div className="containerWrap flex justify-between">
-        <a className="btn btn-ghost normal-case text-xl text-[#000000] font-bold">WebChat</a>
+        <a className="btn btn-ghost normal-case text-xl text-[#000000] font-bold">BeshyConvo</a>
         <div className="cursor-pointer text-[#000000] border border-[#000000] m-2 py-1 px-5 rounded-full flex flex-row items-center">
           <img
             src={google}
