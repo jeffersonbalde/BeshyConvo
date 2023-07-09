@@ -32,7 +32,7 @@ const ChatBox = () => {
     }, [])
 
   return (
-    <div className="pb-44 pt-20 containerWrap bg-[#FFFFFF] w-full h-full">
+    <div className="pb-44 pt-20 containerWrap bg-[#FFFFFF] w-screen h-screen">
         {messages.map(message => (
             <Message message={message} key={message.id} />
         ))}
