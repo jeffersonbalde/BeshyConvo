@@ -85,7 +85,7 @@ const SendMessage = () => {
         .map((word) => `${word}🤸`)
         .join(" ");
 
-      await addDoc(collection(db, "messages"), {
+      await addDoc(collection(db, "messages2"), {
         text: messageWithEmoji,
         name: displayName,
         avatar: photoURL,
