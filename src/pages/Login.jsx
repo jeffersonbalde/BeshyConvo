@@ -30,7 +30,7 @@ const Login = () => {
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="flex flex-col items-center justify-center">
           <h1 className="text-[#000000] text-[50px] font-bold upper sm:text-8xl">BeshyConvo</h1>
-          <p className="text-[#000000] text-base mt-3 w-[350px] text-center sm:text-2xl sm:w-[500px]">Join the BeshyConvo, 
+          <p className="text-[#000000] text-base mt-3 w-[330px] text-center sm:text-2xl sm:w-[600px]">Join the BeshyConvo, 
             meet new Beshify users, and build connections within a shared chat room
           </p>
           <div 
@@ -39,10 +39,10 @@ const Login = () => {
           >
             <img 
                 src={google} 
-                className="inline w-7 h-7"
+                className="inline w-5 h-5 mr-1"
             />
             <div>
-              <button className="text-[#5C5656]">Sign in with Google</button></div>
+              <button className="text-[#5C5656] text-sm">Sign in with Google</button></div>
           </div>
         </div>
         <div className="mt-40">
