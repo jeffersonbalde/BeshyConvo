@@ -9,17 +9,15 @@ export const AuthProvider = ({ children }) => {
     const [currentUser, setCurrentUser] = useState(null);
     const [loading, setLoading] = useState(true);
 
-    // sigin with google
     const signinWithGoogle = () => {
         const provider = new GoogleAuthProvider();
         signInWithRedirect(auth, provider)
     }
 
-    // signout
     const logout = () => signOut(auth);
 
     const value = {
-        currentUser,
+        currentUser,    
         setCurrentUser,
         signinWithGoogle,
         logout
@@ -44,4 +42,4 @@ export const AuthProvider = ({ children }) => {
 
 export const UserAuth = () => {
     return useContext(AuthContext);
-}
+}       
