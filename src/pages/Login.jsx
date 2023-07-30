@@ -6,6 +6,7 @@ import google from '../assets/google.svg';
 import github from '../assets/github.svg';
 import facebook from '../assets/facebook.svg';
 import linkedin from '../assets/linkedin.svg';
+import chatIcon from '../assets/icon.svg'
   
 const Login = () => {
   const navigate = useNavigate();
@@ -29,7 +30,10 @@ const Login = () => {
     <div className="bg-[#E8E8E8] w-screen h-screen font-inter">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="flex flex-col items-center justify-center">
-          <h1 className="text-[#000000] text-[50px] font-bold upper sm:text-8xl">WebChat</h1>
+          <div className="flex flex-row gap-4">
+            <img src={chatIcon} className="w-12 sm:w-20"/>
+            <h1 className="text-[#000000] text-[50px] font-bold upper sm:text-8xl">WebChat</h1>
+          </div>
           <p className="text-[#000000] text-base mt-3 w-[330px] text-center sm:text-2xl sm:w-[600px]">Join the conversation, meet new people, 
             and make connections in one shared room
           </p>
